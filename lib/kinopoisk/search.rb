@@ -29,7 +29,7 @@ module Kinopoisk
     end
 
     def parse_id(node, type)
-      node.attr('href').match(/\/#{type}\/(\d*)\//)[1].to_i
+      node.attr('href').match(/\/#{type}\/(.+-)?(\d*)\//)[1].to_i
     end
 
     def new_movie(node)
