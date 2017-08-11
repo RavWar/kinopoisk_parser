@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name          = 'kinopoisk_parser'
-  gem.version       = '2.2.3'
+  gem.version       = '2.2.4'
   gem.authors       = ['RavWar']
   gem.email         = ['rav_war@mail.ru']
   gem.homepage      = 'https://github.com/RavWar/kinopoisk_parser'
